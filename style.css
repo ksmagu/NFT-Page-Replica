@@ -1,0 +1,329 @@
+main,
+.copyright {
+  padding: 1rem;
+  font-family: "Inter", sans-serif;
+  margin: auto;
+}
+
+header .headreWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-left: 1rem;
+}
+
+.headreWrapper nav {
+  display: none;
+}
+
+.headreWrapper a:hover {
+  color: #ff3998;
+}
+
+.headreWrapper a:hover:last-of-type {
+  color: black;
+}
+
+.headreWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.boorgir {
+  color: grey;
+}
+
+.boorgir i {
+  font-size: 2rem;
+}
+
+button {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, #ff3998, #ff8139) border-box;
+  border-width: 3px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ff3998, #ff8139);
+}
+
+.heroWrapper {
+  margin-top: 4rem;
+  margin-right: -9.375rem;
+}
+
+.heroimg img {
+  width: 275.69px;
+  height: 100%;
+  position: relative;
+  right: 3rem;
+  bottom: 5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.launchingpink {
+  color: #ff3998;
+  font-weight: bold;
+  font-size: small;
+}
+
+.nftGradientText {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.nftGradientText img {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 1rem;
+}
+
+.companies div {
+  padding-right: 2rem;
+  margin: auto;
+}
+
+.companies {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 4rem;
+}
+
+.companies img {
+  padding: 0.5rem;
+}
+
+.companies div:first-child {
+  display: none;
+}
+
+.leAuction a {
+  color: #555555;
+}
+
+.NFT {
+  display: block;
+  max-width: 290px;
+  margin: 1rem;
+  background: #eeeeee;
+  border-radius: 1rem;
+}
+
+.cardtext {
+  display: flex;
+  flex-flow: column wrap;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: small;
+}
+
+.NFTSwrapper .topline,
+.middleline,
+.bottomline {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NFTSwrapper {
+  display: flex;
+  overflow-x: auto;
+}
+
+.NFTSwrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.middleline span {
+  font-weight: 700;
+}
+
+.orange p {
+  color: #ff8139;
+  font-weight: 700;
+}
+
+.byeokWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px #cccccc solid;
+}
+
+.byeokImg img {
+  max-width: 100%;
+  width: 12.875rem;
+  height: 29.1875rem;
+}
+
+.byeokText h1 {
+  font-weight: 800;
+}
+
+.footerWrapper {
+  padding: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.firstfooterdiv i {
+  color: #999999;
+  padding-left: 0.375rem;
+}
+
+.footerWrapper h4 {
+  color: #555555;
+}
+
+.footerWrapper a {
+  text-decoration: none;
+  color: #555555;
+}
+
+.footerbigscreen a:hover {
+  color: #ff3998;
+}
+
+nav,
+.aboutwrapper,
+.opensea,
+.contactwrapper,
+.socialtwrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.firstfooterdiv {
+  padding-top: 2.3rem;
+}
+
+.hide {
+  display: none;
+}
+
+.pirmaeile {
+  padding-right: 4rem;
+}
+
+.copyright {
+  color: #555555;
+}
+
+@media screen and (min-width: 70rem) {
+  main,
+  .headreWrapper {
+    max-width: 80rem;
+    margin: auto;
+  }
+
+  .nftGradientText img {
+    width: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .headreWrapper .boorgir {
+    display: none;
+  }
+
+  .headreWrapper nav {
+    display: inline-block;
+  }
+
+  .headreWrapper a {
+    text-decoration: none;
+    color: #555555;
+    font-family: "Inter", sans-serif;
+    padding-left: 1rem;
+    font-weight: 400;
+  }
+
+  .headreWrapper a:last-of-type {
+    color: #ff3998;
+  }
+
+  .heroWrapper {
+    max-width: 80rem;
+  }
+
+  .heroWrapper img {
+    max-width: 100%;
+    width: 50em;
+    height: 30rem;
+  }
+
+  .nftGradientText img {
+    max-width: 80rem;
+  }
+
+  .nftGradientText h3 {
+    font-size: 3rem;
+  }
+
+  .byeokWrapper {
+    padding-right: 10rem;
+  }
+
+  .herotext h1 {
+    font-size: 3rem;
+  }
+
+  .footerWrapper {
+    display: flex;
+    justify-content: end;
+  }
+
+  .pirmaeile,
+  .antraeile {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 4rem;
+  }
+
+  .footerbigscreen {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hide {
+    display: inline-block;
+  }
+
+  .copyright {
+    max-width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+  }
+
+  .companies div:first-child {
+    display: inline-block;
+  }
+}
